@@ -1,13 +1,11 @@
-# Diabetes Consultant (UK-based) — fixed requirements for Streamlit Cloud (Python 3.13)
-# Pinned to versions with manylinux wheels; lxml upgraded to avoid source build.
+# Diabetes Consultant (UK-based) — requirements for Streamlit Cloud (Python 3.13)
+# Includes PyMuPDF for `import fitz` and bumps lxml to a wheel-supported version.
 
 streamlit==1.48.1
 pydantic==2.11.7
+pydantic-settings==2.10.1
 openai==1.101.0
 python-dotenv==1.1.1
-
-# Settings
-pydantic-settings==2.10.1
 
 # Vector + numerics
 faiss-cpu==1.12.0
@@ -22,6 +20,7 @@ chromadb==0.4.24
 rank-bm25==0.2.2
 
 # PDF / charts / images
+PyMuPDF==1.26.3
 reportlab==4.4.3
 plotly==5.24.1
 Pillow==10.4.0

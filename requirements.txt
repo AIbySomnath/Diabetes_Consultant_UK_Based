@@ -1,52 +1,40 @@
-# Core Dependencies
-streamlit>=1.28.0
-pydantic>=2.0.0
-openai>=1.0.0
-python-dotenv>=1.0.0
+# Diabetes Consultant (UK-based) — fixed requirements for Streamlit Cloud (Python 3.13)
+# Pinned to versions with manylinux wheels; lxml upgraded to avoid source build.
 
-# Data Modeling & Validation
-pydantic>=2.5.3,<3.0.0
-pydantic-settings>=2.1.0,<3.0.0
+streamlit==1.48.1
+pydantic==2.11.7
+openai==1.101.0
+python-dotenv==1.1.1
 
-# RAG and embeddings
-faiss-cpu>=1.7.4
-numpy>=1.24.0
+# Settings
+pydantic-settings==2.10.1
 
-# Data Processing & Analysis
-pandas>=2.1.0,<3.0.0
-numpy>=1.24.0,<2.0.0
-python-dateutil>=2.8.2,<3.0.0
+# Vector + numerics
+faiss-cpu==1.12.0
+numpy==2.3.2
+pandas==2.3.2
+python-dateutil==2.9.0.post0
+packaging==23.2
 
-# Vector Database & Embeddings
-sentence-transformers>=2.2.2,<3.0.0
-faiss-cpu>=1.7.4,<2.0.0  # Use faiss-gpu if CUDA is available
-chromadb>=0.4.20,<0.5.0
-rank-bm25>=0.2.2,<0.3.0
+# NLP / embeddings / DB
+sentence-transformers==2.7.0
+chromadb==0.4.24
+rank-bm25==0.2.2
 
-# Report Generation
-reportlab>=4.0.7,<5.0.0
-plotly>=5.18.0,<6.0.0
-Pillow>=10.1.0,<11.0.0
+# PDF / charts / images
+reportlab==4.4.3
+plotly==5.24.1
+Pillow==10.4.0
 
-# UI Enhancements
-streamlit-extras>=0.3.6,<0.4.0
-st-pages>=0.4.5,<0.5.0
-streamlit-option-menu>=0.3.6,<0.4.0
-streamlit-tags>=1.2.2,<2.0.0
+# Streamlit add-ons
+streamlit-extras==0.3.6
+st-pages==0.4.5
+streamlit-option-menu==0.3.13
+streamlit-tags==1.2.8
 
-# Web & Data Scraping
-beautifulsoup4>=4.12.2,<5.0.0
-requests>=2.31.0,<3.0.0
-lxml>=4.9.3,<5.0.0
+# Web utils
+beautifulsoup4==4.13.4
+requests==2.32.5
 
-# Testing & Development
-pytest>=7.4.3,<8.0.0
-pytest-cov>=4.1.0,<5.0.0
-black>=23.11.0,<24.0.0
-isort>=5.12.0,<6.0.0
-mypy>=1.7.0,<2.0.0
-pylint>=3.0.0,<4.0.0
-
-# Documentation
-mkdocs>=1.5.0,<2.0.0
-mkdocs-material>=9.4.0,<10.0.0
+# FIX: lxml build error on Py 3.13 -> use binary wheel from 5.x
+lxml>=5.2.1,<6

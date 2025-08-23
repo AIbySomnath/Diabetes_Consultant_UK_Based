@@ -1,0 +1,177 @@
+{
+  "executive_summary": "Sanket Gaikwad is a 43-year-old male with Type 1 Diabetes Mellitus, currently exhibiting an HbA1c of 7.5%, which is above the target of 7.0%. His blood pressure is well-controlled at 120/80 mmHg, and he has no significant complications or comorbidities at this time. Priorities include optimizing glycemic control and implementing lifestyle modifications.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Green",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve glycemic control",
+      "Implement lifestyle changes"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None",
+    "devices": [],
+    "complications": "None",
+    "recent_events": "No recent episodes of hypoglycemia or DKA"
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 7.5,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target for Type 1 Diabetes"
+    },
+    {
+      "test": "Fasting Plasma Glucose",
+      "value": 5.5,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "Postprandial Glucose",
+      "value": 8.0,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "eGFR",
+      "value": 90,
+      "target": 60,
+      "status": "Green",
+      "comment": "Kidney function is normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 80,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "ACR",
+      "value": 2.0,
+      "target": 3.0,
+      "status": "Green",
+      "comment": "No albuminuria"
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": 5.0,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "LDL",
+      "value": 2.5,
+      "target": 2.0,
+      "status": "Amber",
+      "comment": "Above target for high-risk patients"
+    },
+    {
+      "test": "HDL",
+      "value": 1.2,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "Triglycerides",
+      "value": 1.5,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Elevated HbA1c",
+      "assessment": "Current HbA1c of 7.5% indicates suboptimal glycemic control.",
+      "plan": "Implement lifestyle modifications and consider medication for better glycemic control.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL",
+      "assessment": "LDL level of 2.5 is above the target for high-risk patients.",
+      "plan": "Advise dietary changes and consider lipid-lowering therapy.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise weekly.",
+      "citation_ids": []
+    },
+    {
+      "text": "Aim for a balanced diet rich in whole grains, fruits, and vegetables.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on a low glycemic index diet, reduce saturated fats, and control portion sizes.",
+    "sample_meals": [
+      "Grilled chicken salad with quinoa",
+      "Oatmeal with berries",
+      "Vegetable stir-fry with brown rice"
+    ],
+    "portion_guidance": "Use smaller plates to help control portion sizes.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels between 4-7 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal Screening",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot Examination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal Function",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c of less than 7.0% within 6 months.",
+    "Reduce LDL to below 2.0 mmol/L within 6 months.",
+    "Increase physical activity to 150 minutes per week within 3 months."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting insulin therapy to improve glycemic control.",
+      "citation_ids": []
+    },
+    {
+      "text": "Consider statin therapy for LDL management.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "In 3 months",
+      "actions": "Reassess HbA1c, LDL levels, and overall management plan."
+    }
+  ],
+  "emr_note": "Patient is a 43-year-old male with T1DM, HbA1c at 7.5%. Lifestyle modifications and potential medication adjustments discussed. Follow-up in 3 months.",
+  "citations": []
+}

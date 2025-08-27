@@ -500,7 +500,7 @@ def main():
     # Footer
     st.markdown("---")
     st.markdown(
-        "🔬 **Powered by:** GPT-4o-mini + NICE/BDA Guidelines • "
+        "🔬 **Powered by:** NICE/BDA Guidelines • "
         "🏥 **For:**  Digital Health • "
         f"⚡ **Built:** {datetime.now().strftime('%Y')}"
     )

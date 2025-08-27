@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 # 1) MUST be first Streamlit call
 # ────────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="NHS Diabetes Consultant AI",
+    page_title="Diabetes Consultant Helper AI",
     page_icon="🩺",
     layout="wide",
     initial_sidebar_state="expanded",

@@ -463,7 +463,7 @@ def main():
     """Main application"""
 
     # Header
-    st.title("🩺 NHS Diabetes Consultant AI")
+    st.title("🩺  Diabetes Consultant Helper AI")
     st.markdown("### Schema-Locked Single-Pass Clinical Report Generator")
 
     # Sidebar navigation
@@ -501,7 +501,7 @@ def main():
     st.markdown("---")
     st.markdown(
         "🔬 **Powered by:** GPT-4o-mini + NICE/BDA Guidelines • "
-        "🏥 **For:** NHS Digital Health • "
+        "🏥 **For:**  Digital Health • "
         f"⚡ **Built:** {datetime.now().strftime('%Y')}"
     )
 

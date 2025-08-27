@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 # 1) MUST be first Streamlit call
 # ────────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Diabetes Consultant AI Assistant ",
+    page_title="Diabetes Consultant AI Assistant",
     page_icon="🩺",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -463,7 +463,7 @@ def main():
     """Main application"""
 
     # Header
-    st.title("🩺  Diabetes Consultant Helper AI")
+    st.title("🩺 Diabetes Consultant AI Assistant")
     st.markdown("### Schema-Locked Single-Pass Clinical Report Generator")
 
     # Sidebar navigation

@@ -381,7 +381,7 @@ Patient Goals:
 EMR Summary Note:
 {report.get('emr_note', 'Diabetes management reviewed. Plan updated. Patient educated on targets and monitoring.')}
 
-Report prepared by: NHS Diabetes Digital Health Team
+Report prepared by: Diabetes Digital Assistant
 Generated: {datetime.now().strftime('%d %B %Y at %H:%M')}
 
 ───────────────────────────────────────────────────────────────────────────────
